@@ -26,7 +26,11 @@ return room_array
 end
 
 def printer(attendees)
-  puts badge_array
-  puts room_array
+  badge_array = []
+  array.each do |name|
+    badge_array.push ("Hello, my name is #{name}.")
+end
+return badge_array
+end
   
 end  
