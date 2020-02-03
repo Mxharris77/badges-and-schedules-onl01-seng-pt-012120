@@ -25,7 +25,7 @@ end
 return room_array
 end
 
-def printer 
+def printer(attendees)
   puts badge_array
   puts room_array
   
