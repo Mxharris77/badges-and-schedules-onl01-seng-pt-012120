@@ -9,7 +9,7 @@ end
 
 def batch_badge_creator(attendees)
   array = []
-  
+  array.each do |
  return "Hello, my name is #{attendees}"
 end
 
