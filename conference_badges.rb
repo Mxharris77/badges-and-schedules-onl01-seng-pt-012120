@@ -17,8 +17,10 @@ end
 
 def assign_rooms(array)
    room_array = []
+   counter = 1
   array.each do |name|
-    badge_array.push ("Hello, my name is #{name}.")
+    room_array.push (("Hello, #{name}! You'll be assigned to room #{counter}!"))
+    counter += 1 
 end
-return badge_array
+return room_array
 end
