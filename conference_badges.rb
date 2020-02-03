@@ -29,8 +29,15 @@ def printer(attendees)
   badge_array = []
   array.each do |name|
     badge_array.push ("Hello, my name is #{name}.")
-end
+          end
+
+
+  room_array = []
+   counter = 1
+  array.each do |name|
+    room_array.push (("Hello, #{name}! You'll be assigned to room #{counter}!"))
+    counter += 1 
+            end
 return badge_array
-end
-  
+return room_array
 end  
