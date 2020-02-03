@@ -8,6 +8,7 @@ end
 
 
 def batch_badge_creator(attendees)
+  array = []
   
  return "Hello, my name is #{attendees}"
 end
