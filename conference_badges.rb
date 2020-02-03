@@ -16,5 +16,9 @@ return badge_array
 end
 
 def assign_rooms(array)
-  assign_rooms = []
-  array.each do 
+   room_array = []
+  array.each do |name|
+    badge_array.push ("Hello, my name is #{name}.")
+end
+return badge_array
+end
